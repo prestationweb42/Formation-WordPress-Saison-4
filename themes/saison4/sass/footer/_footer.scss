@@ -1,0 +1,43 @@
+/*
+Setting Footer
+*/
+footer {
+    .inset-widget,
+    .widget-block {
+        min-block-size: 400px;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #bac6bc;
+    }
+    // Categories
+    .wp-block-categories-list,
+    // Navigation
+    #menu-pied-de-page,
+    #menu-legal {
+        list-style-type: none;
+    }
+    // Categories
+    .wp-block-categories-list li,
+    // Last Articles
+    .wp-block-latest-posts__list li,
+    // Navigation
+    #menu-pied-de-page li,
+    #menu-legal li {
+        margin-block-end: 0.8rem;
+    }
+    // Categories
+    .wp-block-categories-list li a,
+    // Last Articles
+    .wp-block-latest-posts__list li a,
+    // Navigation
+    #menu-pied-de-page li a,
+    #menu-legal li a {
+        text-decoration: none;
+        color: #111111;
+        font-size: 17px;
+    }
+    // Last Articles
+    .wp-block-latest-posts__list li {
+        padding-inline-start: 2rem;
+    }
+}

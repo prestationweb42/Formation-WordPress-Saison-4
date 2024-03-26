@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(0, 255, 251, 0.278);
+}
+h1 {
+    color: var(--pink);
+    background-color: $bleunuit;
+    font-family: "Merriweather", serif;
+    // font-size: 60px;
+    text-align: center;
+    margin-block-end: 50px;
+}
+.text_content {
+    // inline-size: 50%;
+    // margin-inline: auto;
+    // margin-block-end: 100px;
+    border: 1px solid #000 !important;
+}
+
+/*==========
+* Imgs Media
+*/
+.card-body {
+    padding: 0 !important;
+}
+
+/*========
+* Carousel
+*/
+#section_carousel {
+    min-block-size: 100vh;
+    @media screen and (max-width: 1024px) {
+        min-block-size: 80vh;
+    }
+    @media screen and (max-width: 768px) {
+        min-block-size: 50vh;
+    }
+    @media screen and (max-width: 425px) {
+        min-block-size: 30vh;
+    }
+    #carousel_01 {
+        max-inline-size: 50vw;
+        @media screen and (max-width: 1024px) {
+            max-inline-size: 80vw;
+        }
+        @media screen and (max-width: 768px) {
+            max-inline-size: 85vw;
+        }
+        @media screen and (max-width: 425px) {
+            max-inline-size: 95vw;
+        }
+        .carousel-caption h5 {
+            font-size: 2rem;
+            animation-delay: 400ms;
+        }
+        .carousel-caption p {
+            animation-delay: 1s;
+            font-size: 1.4rem;
+            padding-inline: 5px;
+            padding-block: 10px;
+            background-color: rgba($color: #000000, $alpha: 0.35);
+            border-radius: 2%;
+        }
+    }
+}

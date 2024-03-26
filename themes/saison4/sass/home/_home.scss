@@ -1,0 +1,50 @@
+/*
+Setting Home/Blog page
+*/
+// Pagination with the_posts_pagination()
+.pagination {
+    background-color: #ffae00 !important;
+    min-height: 100px;
+    .nav-links {
+        width: fit-content;
+        margin: auto;
+        span,
+        a {
+            margin-right: 20px;
+        }
+        span:last-child,
+        a:last-child {
+            margin-right: 0;
+        }
+    }
+    .current {
+        color: #eaeaea;
+        background-color: #2b2b2b;
+        padding-inline: 10px;
+        padding-block: 5px;
+    }
+}
+
+// Pagination with paginate_links()
+#custom_pagination {
+    min-block-size: 100px;
+    background-color: beige;
+    .custom_links_pagination {
+        width: fit-content;
+        height: fit-content;
+        span,
+        a {
+            margin-inline-end: 15px;
+        }
+        span:last-child,
+        a:last-child {
+            margin-inline-end: 0;
+        }
+        .current {
+            color: white;
+            background-color: #00b3ff;
+            padding-inline: 10px;
+            padding-block: 5px;
+        }
+    }
+}

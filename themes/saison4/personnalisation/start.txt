@@ -1,0 +1,8 @@
+Ajouter ce script dans package.json - attention aux véritables chemin et dossier
+"sass": "sass --watch sass/style.scss sass/style.css",
+
+Pour démarrer SASS :
+npm run sass
+
+Pour stopper :
+ctrl + c

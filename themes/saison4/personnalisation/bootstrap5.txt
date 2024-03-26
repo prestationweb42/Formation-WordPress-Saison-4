@@ -1,0 +1,1 @@
+Les fichiers bootstrap.min.css et bootstrap.min.js sont présents dans ce thème
